@@ -1,6 +1,12 @@
 body {
   font-family: "Open Sans", sans-serif;
   background-color: #f9fafc;
+  padding-left: 7px;
+  
+}
+
+header{
+    padding:7px;
 }
 
 nav a {
@@ -11,6 +17,8 @@ nav a {
   display: flex;
   flex-direction: column;
   padding: 7px;
+  font-family: "Open Sans", sans-serif;
+  font-weight:350;
 }
 
 .button {
@@ -20,10 +28,17 @@ nav a {
   text-align: center;
   color: #fff;
   width: 100%;
+  font-family: "Open Sans", sans-serif;
 }
 
 p {
   color: #69696a;
   border-left: solid;
-  padding: 12px;
+  padding-left: 12px;
+  font-weight:350;
+  
+}
+
+h2{
+    font-weight:400;
 }
