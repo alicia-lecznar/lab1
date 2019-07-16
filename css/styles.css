@@ -1,21 +1,29 @@
 body {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   background-color: #f9fafc;
 }
 
-ul {
+nav a {
+  text-decoration: none;
   list-style: none;
+  color: #69696a;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  padding: 7px;
 }
-nav ul{
-    text-decoration: none;
 
+.button {
+  background-color: #000;
+  border-radius: 15px;
+  padding: 10px 24px;
+  text-align: center;
+  color: #fff;
+  width: 100%;
 }
 
-.button{
-    background-color: #000;
-    border-radius: 15px;
-    padding: 10px 24px;
-    text-align:center;
-    Color:#FFF;
-    width:100%;
-  }
+p {
+  color: #69696a;
+  border-left: solid;
+  padding: 12px;
+}
